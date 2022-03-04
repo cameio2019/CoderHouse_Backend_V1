@@ -53,7 +53,6 @@ app.get('/views/products', (req,res)=>{
         let preparedObj ={
             products : result
         }
-        // console.log(preparedObj.products.payload)
         res.render('products', preparedObj)
     })
 })
